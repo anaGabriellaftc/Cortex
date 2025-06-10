@@ -80,7 +80,6 @@ public class cortex_gabi extends LinearOpMode {
                                             leftDrive.getCurrentPosition(), rightDrive.getCurrentPosition());
                 telemetry.update();
             }
-
             leftDrive.setPower(0);
             rightDrive.setPower(0);
 
